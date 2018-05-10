@@ -3,16 +3,23 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'y',
+    title: 'Roger clayton',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Personal portfolio site' }
+      { hid: 'description', name: 'description', content: 'Roger Clayton portfolio site' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  /*
+  ** Set global styling with Bulma
+  */
+  css: [
+    { src: '~assets/main.sass', lang: 'sass' },
+    { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' },
+  ],
   /*
   ** Customize the progress bar color
   */
