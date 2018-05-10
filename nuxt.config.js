@@ -16,10 +16,7 @@ module.exports = {
   /*
   ** Set global styling with Bulma
   */
-  css: [
-    { src: '~assets/main.sass', lang: 'sass' },
-    { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' },
-  ],
+
   /*
   ** Customize the progress bar color
   */

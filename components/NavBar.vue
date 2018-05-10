@@ -10,7 +10,7 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-start">
-        <a href="/" class="navbar-item">About</a>
+        <a href="/about" class="navbar-item">About</a>
         <a href="/" class="navbar-item">Projects</a>
         <a href="/" class="navbar-item">Contact</a>
       </div>

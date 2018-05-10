@@ -1,9 +1,8 @@
 <template>
   <section>
-<nav-bar/>
     <div>
       <app-logo/>
-      <h1 class="title">
+      <h1 class="title has-text-info">
         Roger Clayton
       </h1>
       <h2 class="subtitle">
@@ -25,12 +24,10 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
-import NavBar from '~/components/NavBar.vue'
 
 export default {
   components: {
-    AppLogo,
-    NavBar
+    AppLogo
   }
 }
 </script>
